@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CD084471BD027FC00A7A023 /* CCCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD084461BD027FC00A7A023 /* CCCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
 		3CD0844A1BD0292100A7A023 /* CCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD084491BD0292100A7A023 /* CCCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		3CF7B9121BCF44F600DA85A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7B9111BCF44F600DA85A1 /* main.m */; };
 		3CF7B9151BCF44F600DA85A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7B9141BCF44F600DA85A1 /* AppDelegate.m */; };
@@ -17,6 +16,8 @@
 		3CF7B9201BCF44F600DA85A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF7B91E1BCF44F600DA85A1 /* LaunchScreen.storyboard */; };
 		3CF7B92B1BCF44F600DA85A1 /* horizontalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7B92A1BCF44F600DA85A1 /* horizontalTests.m */; };
 		3CF7B9361BCF44F600DA85A1 /* horizontalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7B9351BCF44F600DA85A1 /* horizontalUITests.m */; };
+		CD4F6BF51BD057BD000F8E50 /* CCCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F6BF41BD057BD000F8E50 /* CCCollectionView.m */; settings = {ASSET_TAGS = (); }; };
+		CD4F6BF81BD066B1000F8E50 /* CCASCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F6BF71BD066B1000F8E50 /* CCASCollectionView.m */; settings = {ASSET_TAGS = (); }; };
 		D1849B2FEB618C65EE635CB1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 160380FF854CFE93599F4484 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +41,6 @@
 /* Begin PBXFileReference section */
 		075160305FD9AF8318B82B8A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		160380FF854CFE93599F4484 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CD084451BD027FC00A7A023 /* CCCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCollectionViewController.h; sourceTree = "<group>"; };
-		3CD084461BD027FC00A7A023 /* CCCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCollectionViewController.m; sourceTree = "<group>"; };
 		3CD084481BD0292100A7A023 /* CCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCollectionViewCell.h; sourceTree = "<group>"; };
 		3CD084491BD0292100A7A023 /* CCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCollectionViewCell.m; sourceTree = "<group>"; };
 		3CF7B90D1BCF44F600DA85A1 /* horizontal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = horizontal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +60,10 @@
 		3CF7B9351BCF44F600DA85A1 /* horizontalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = horizontalUITests.m; sourceTree = "<group>"; };
 		3CF7B9371BCF44F600DA85A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA439335E6484595CD162A61 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CD4F6BF31BD057BD000F8E50 /* CCCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCollectionView.h; sourceTree = "<group>"; };
+		CD4F6BF41BD057BD000F8E50 /* CCCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCollectionView.m; sourceTree = "<group>"; };
+		CD4F6BF61BD066B1000F8E50 /* CCASCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCASCollectionView.h; sourceTree = "<group>"; };
+		CD4F6BF71BD066B1000F8E50 /* CCASCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCASCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +121,12 @@
 				3CF7B9141BCF44F600DA85A1 /* AppDelegate.m */,
 				3CF7B9161BCF44F600DA85A1 /* ViewController.h */,
 				3CF7B9171BCF44F600DA85A1 /* ViewController.m */,
-				3CD084451BD027FC00A7A023 /* CCCollectionViewController.h */,
-				3CD084461BD027FC00A7A023 /* CCCollectionViewController.m */,
+				CD4F6BF31BD057BD000F8E50 /* CCCollectionView.h */,
+				CD4F6BF41BD057BD000F8E50 /* CCCollectionView.m */,
 				3CD084481BD0292100A7A023 /* CCCollectionViewCell.h */,
 				3CD084491BD0292100A7A023 /* CCCollectionViewCell.m */,
+				CD4F6BF61BD066B1000F8E50 /* CCASCollectionView.h */,
+				CD4F6BF71BD066B1000F8E50 /* CCASCollectionView.m */,
 				3CF7B9191BCF44F600DA85A1 /* Main.storyboard */,
 				3CF7B91C1BCF44F600DA85A1 /* Assets.xcassets */,
 				3CF7B91E1BCF44F600DA85A1 /* LaunchScreen.storyboard */,
@@ -339,8 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4F6BF81BD066B1000F8E50 /* CCASCollectionView.m in Sources */,
 				3CD0844A1BD0292100A7A023 /* CCCollectionViewCell.m in Sources */,
-				3CD084471BD027FC00A7A023 /* CCCollectionViewController.m in Sources */,
+				CD4F6BF51BD057BD000F8E50 /* CCCollectionView.m in Sources */,
 				3CF7B9181BCF44F600DA85A1 /* ViewController.m in Sources */,
 				3CF7B9151BCF44F600DA85A1 /* AppDelegate.m in Sources */,
 				3CF7B9121BCF44F600DA85A1 /* main.m in Sources */,
